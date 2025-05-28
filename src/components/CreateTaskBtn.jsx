@@ -1,13 +1,8 @@
 import React from "react";
 
-const CreateTaskBtn = ({ parentElemenId, onClick }) => {
+const CreateTaskBtn = ({ onClick }) => {
   const handleClick = () => {
-    createTask();
     onClick(true);
-  };
-
-  const createTask = () => {
-    console.log(parentElemenId);
   };
 
   return (

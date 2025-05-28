@@ -72,6 +72,7 @@ h3 {
   gap: 16px;
   align-items: center;
   justify-content: center;
+  padding: 20px 0px 0px;
 }
 
 .task-element {
